@@ -31,9 +31,18 @@ public class Method {
 		name = n;
 		gender = g;
 		age = a;
+
+		method(); //private메서드는 내부에서만 사용 가능 
 	}
 	
 	public Method() {
 	System.out.println("생성자");	
+	}
+	
+	//같은 메서드(오버로딩)를 호출할수는 있으나 매게변수는 달라야한다.
+
+	// 접근제한자 
+	private void method() {
+		System.out.println("private 메서드");
 	}
 }
