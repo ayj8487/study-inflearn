@@ -17,8 +17,21 @@ public class Main {
 		//2 ) 오버라이딩
 		child.makeJJajang();
 	
- 		
+	
+		//3 ) 익명 클래스
+		// 클래스의 이름을 붙히지 않고 바로 new 키워드로 접근 
+		// 로직 끝에 .method를 붙혀 바로 재정의가 가능하지만 재사용은 불가함
+		new AnomymousClass() {
+			
+			@Override
+			public void method() {
+				System.out.println("-- 익명클래스의 재정의 --");
+			};
+		}.method();
+		
+		
 	}
+	
 	
 	
 	

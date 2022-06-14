@@ -34,4 +34,6 @@ public class In01 {
 	// this 와 super 
 	// this 는 현재 클래스를 호출 , super는 현재클래스의 상위클래스 즉 부모클래스를 호출 함
 	
+	//5. 익명 클래스 
+	
 }
